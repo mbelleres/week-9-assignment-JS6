@@ -21,8 +21,8 @@ describe("Deck of Cards Length", () => {
 
   //Describe what the test is checking for.
   it("should see if the length of the card deck is equal to 52.", function (done) {
-    let testDeck = new deckOfCards(); //Creates a new deck of cards from the game itself. ie. war.js
-    let cards = testDeck.cardDeck; //Creates a variable that holds the card deck.
+    let testDeck = new Deck(); //Creates a new deck of cards from the game itself. ie. war.js
+    let cards = testDeck.deck; //Creates a variable that holds the card deck.
     let numberOfCards = cards.length; //Creates a variable that outputs the number of cards in the deck.
 
     console.log("Here is my  cards:", cards);

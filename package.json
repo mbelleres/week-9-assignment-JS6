@@ -1,8 +1,8 @@
 {
-  "name": "wargame-mocha-chai-testing",
+  "name": "week-9-assignments-js6",
   "version": "1.0.0",
-  "description": "tests various aspects of our war game",
-  "main": "test.js",
+  "description": "Week 9 Assignments",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.10",
-    "mocha": "^10.2.0",
-    "sinon": "^13.0.1"
+    "mocha": "^10.2.0"
   }
 }
